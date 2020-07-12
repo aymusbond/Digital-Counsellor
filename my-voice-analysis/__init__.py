@@ -25,7 +25,7 @@ def myspsyl(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
      
 
 def mysppaus(m,p):
@@ -44,7 +44,7 @@ def mysppaus(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
     
 
 def myspsr(m,p):
@@ -63,7 +63,7 @@ def myspsr(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
     
 
 def myspatc(m,p):
@@ -82,7 +82,7 @@ def myspatc(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
 
 
 def myspst(m,p):
@@ -101,7 +101,7 @@ def myspst(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z4
 
 
 def myspod(m,p):
@@ -120,7 +120,7 @@ def myspod(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z4
 
 
 def myspbala(m,p):
@@ -139,7 +139,7 @@ def myspbala(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z4
     
 
 def myspf0mean(m,p):
@@ -158,7 +158,7 @@ def myspf0mean(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z4
     
 
 def myspf0sd(m,p):
@@ -177,7 +177,7 @@ def myspf0sd(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z4
     
 
 def myspf0med(m,p):
@@ -196,7 +196,7 @@ def myspf0med(m,p):
     except:
         z4=0
         #print ("Try again the sound of the audio was not clear")
-        return error
+        return z4
 
 
 def myspf0min(m,p):
@@ -215,7 +215,7 @@ def myspf0min(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear") 
-        return "error"
+        return z3
     
 
 def myspf0max(m,p):
@@ -234,7 +234,7 @@ def myspf0max(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
     
 
 def myspf0q25(m,p):
@@ -253,7 +253,7 @@ def myspf0q25(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
 
 
 def myspf0q75(m,p):
@@ -272,7 +272,7 @@ def myspf0q75(m,p):
     except:
         z3=0
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return z3
     
 
 def mysptotal(m,p):
@@ -294,7 +294,7 @@ def mysptotal(m,p):
         return dataset.T
     except:
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return 0
   
 
 def mysppron(m,p):
@@ -315,7 +315,7 @@ def mysppron(m,p):
         return ("%.2f" %(b))
     except:
         #print ("Try again the sound of the audio was not clear")
-        return "error"
+        return 0
     
 
 def myspgend(m,p):
@@ -384,4 +384,4 @@ def myspgend(m,p):
         else:
              return ("Female")
     except:
-        return ("error")
+        return ("undefined")
